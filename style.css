@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: rgb(4, 205, 255);
+  background-image: url(background.jpg);
+
+  font-family: sans-serif;
+  
+
+  width: 500px;
+  height: 400px;
+    
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+   
+
+  
+
+}
+.navbar li{
+    color: black;
+    cursor: pointer;
+    font-weight: 500px;
+    margin-left: 70px;
+   
+    
+  
+}
+.navbar h2{
+    
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    
+    
+}
+.headpara{
+    margin-left: 150px;
+    align-items: center;
+    margin-top: 30%;
+}
+.first{
+    color: rgb(8, 106, 109);
+    font-size: 50px;
+    font-weight: bold;
+}
+.second{
+    color: white;
+    font-size: 50px;
+    font-weight: bol;
+}
+.butt{
+    width: 150px;
+    height: 50px;
+    margin-left: 28%;
+    margin-top: 40px;
+    background-color: rgb(5, 79, 82);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+   
+}
+.footer{
+    margin-top: 50%;
+    margin-left: 80%;
+    justify-content: center;
+  
+    
+   
+}
+.butt:hover{
+    background-color: rgb(10, 140, 180);
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar ul{
+        flex-direction: column;
+        padding: 0;
+
+    }
+    .navbar li{
+margin-left: 0;
+margin-top: 10px;
+    }
+    h2{
+        position: static;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .headpara{
+        margin: 20px;
+        text-align: center;
+    }
+    .butt{
+        margin-left: 0;
+        display: block;
+        margin: 20px auto;
+
+    }
+    .footer{
+        margin-left: 0;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .img{
+        width: 25px;
+        height: 25px;
+    }
+}
